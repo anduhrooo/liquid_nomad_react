@@ -1,3 +1,8 @@
+import maiTai from '../assets/maitai.jpg';
+import monkeyMaiTai from '../assets/monkeymaitai.jpg';
+import jungleBird from '../assets/junglebird.jpg';
+import queenParkSwizzle from '../assets/qps.jpg';
+
 export const menu = {
     cocktails: [
         {
@@ -11,7 +16,7 @@ export const menu = {
                 "Curacao"
             ],
             tag: 'classic mai tai',
-            image: '../src/assets/maitai.jpg',
+            image: maiTai,
         },
         {
             name: 'Mai Tai',
@@ -25,7 +30,7 @@ export const menu = {
                 "Lilikoi (Passion Fruit) Foam"
             ], 
             tag: 'way cheaper than a plane ticket to Hawaii (use the money you saved to tip your bartender!)', 
-            image: '../src/assets/monkeymaitai.jpg',
+            image: monkeyMaiTai,
         },
         {
             name: "Jungle Bird",
@@ -37,7 +42,7 @@ export const menu = {
                 "Lime Juice"
             ],
             tag: '...or therapy in a glass.',
-            image: '../src/assets/junglebird.jpg',
+            image: jungleBird,
         },
         {
             name: "Tradewinds",
@@ -70,7 +75,7 @@ export const menu = {
                 "Angostura Bitters"
             ],
             tag: 'A better mojito',
-            image: '../src/assets/qps.jpg',
+            image: queenParkSwizzle,
         },
         {
             name: "Old Fashioned",
