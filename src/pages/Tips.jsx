@@ -5,8 +5,8 @@ function Tips() {
     <div>
       <p>
         If you enjoyed the drinks, feel free to support me on{' '}
-        <a
-          href="https://venmo.com/anduhrooo"
+        <button
+          type="button"
           onClick={e => {
             e.preventDefault();
             window.location = 'venmo://paycharge?txn=pay&recipients=anduhrooo&amount=10.00&note=Thanks!';
@@ -14,9 +14,18 @@ function Tips() {
               window.location = 'https://venmo.com/anduhrooo';
             }, 1500);
           }}
+          style={{
+            background: 'none',
+            border: 'none',
+            color: '#3D95CE',
+            textDecoration: 'underline',
+            cursor: 'pointer',
+            padding: 0,
+            font: 'inherit'
+          }}
         >
           Venmo
-        </a>
+        </button>
         !
       </p>
     </div>
