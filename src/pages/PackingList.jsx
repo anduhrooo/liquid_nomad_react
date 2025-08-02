@@ -5,7 +5,7 @@ function PackingList() {
     const printRef = useRef();
 
     const featuredCocktails = menu.cocktails.filter(item =>
-        ['Mai Tai', 'Jungle Bird', "Mojito", 'Old Fashioned', 'Whiskey Sour'].includes(item.name)
+        ['Mai Tai', 'Jungle Bird', 'Old Fashioned', 'Whiskey Sour'].includes(item.name)
     );
 
     const allIngredients = [

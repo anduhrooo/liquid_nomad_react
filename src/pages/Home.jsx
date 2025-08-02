@@ -4,7 +4,7 @@ import { menu } from '../data/menu_items';
 
 function Home() {
     const featuredCocktails = menu.cocktails.filter(item =>
-        ['Mai Tai', 'Jungle Bird', "Mojito", 'Old Fashioned', 'Whiskey Sour'].includes(item.name)
+        ['Mai Tai', 'Jungle Bird', 'Old Fashioned', 'Whiskey Sour'].includes(item.name)
     );
 
   return (
