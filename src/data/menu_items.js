@@ -2,8 +2,8 @@ import maiTai from '../assets/maitai.jpg';
 import monkeyMaiTai from '../assets/monkeymaitai.jpg';
 import jungleBird from '../assets/junglebird.jpg';
 import queenParkSwizzle from '../assets/qps.jpg';
-import whiskeySour from '../assets/whiskeysour.jpg';
-import oldFashioned from '../assets/oldfashioned.jpg';
+import whiskeySour from '../assets/whiskeySour.jpg';
+import oldFashioned from '../assets/oldFashioned.jpg';
 
 export const menu = {
     cocktails: [
