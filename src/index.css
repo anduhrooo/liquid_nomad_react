@@ -35,6 +35,12 @@ h3 {
   
 }
 
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin: 0.5em 0;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -79,7 +85,20 @@ h3 {
   justify-content: center;
   list-style-type: none;
   gap: 2em;
+  /* color: #fff; */
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited,
+a:active {
+  color: #ff3ebf;
+  text-decoration: none;
+}
+
 
 .menu-section-wrapper {
   display: flex;
@@ -89,6 +108,7 @@ h3 {
   width: 100%;
   background-color: #1a1a1a;
   color: #fff;
+
 }
 
 .menu-section {
