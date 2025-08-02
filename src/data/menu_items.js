@@ -2,6 +2,8 @@ import maiTai from '../assets/maitai.jpg';
 import monkeyMaiTai from '../assets/monkeymaitai.jpg';
 import jungleBird from '../assets/junglebird.jpg';
 import queenParkSwizzle from '../assets/qps.jpg';
+import whiskeySour from '../assets/whiskeysour.jpg';
+import oldFashioned from '../assets/oldfashioned.jpg';
 
 export const menu = {
     cocktails: [
@@ -16,7 +18,7 @@ export const menu = {
                 "Curacao"
             ],
             tag: 'classic mai tai',
-            image: maiTai,
+            // image: maiTai,
         },
         {
             name: 'Mai Tai',
@@ -27,10 +29,9 @@ export const menu = {
                 "Demerara Syrup",
                 "Orgeat (Almond) Syrup",
                 "Orange Liqueur",
-                "Lilikoi (Passion Fruit) Foam"
             ], 
             tag: 'way cheaper than a plane ticket to Hawaii (use the money you saved to tip your bartender!)', 
-            image: monkeyMaiTai,
+            image: maiTai,
         },
         {
             name: "Jungle Bird",
@@ -81,12 +82,11 @@ export const menu = {
             name: "Old Fashioned",
             ingredients: [
                 "Buffalo Trace Bourbon",
-                "Soy Sauce",
-                "Maple Syrup",
+                'Demerara Syrup',
                 "Angostura Bitters"
             ],
-            tag: "just.. trust me on this one.",
-            image: 'https://picsum.photos/200/300', // Placeholder image
+            tag: "a classic cocktail. Perfectly balanced.",
+            image: oldFashioned
         },
         {
             name: "Whiskey Sour",
@@ -97,7 +97,7 @@ export const menu = {
                 "Red Wine"
             ],
             tag: 'clarified cocktail with a float of red wine. Tony Yang approved.',
-            image: 'https://picsum.photos/200/300', // Placeholder image
+            image: whiskeySour
         },
         {
             name: "Paper Plane",
